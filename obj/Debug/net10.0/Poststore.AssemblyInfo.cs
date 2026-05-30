@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Poststore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+314d3ee315866ae29bae06f1fb26989ab0fd9594")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c39ff4bf71e65ef16710277c88442c443cdc131")]
 [assembly: System.Reflection.AssemblyProductAttribute("Poststore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Poststore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

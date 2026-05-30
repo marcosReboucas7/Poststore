@@ -15,10 +15,12 @@ namespace Poststore.Data.Mappings
 
             builder.Property(x => x.Id)
                 .HasColumnName("id")
-                .UseIdentityAlwaysColumn();
+                .UseIdentityAlwaysColumn()
+                .UseSerialColumn();
 
             builder.Property(x => x.Title)
-                .HasColumnType("nvarchar")
+            .HasColumnName("title")
+                .HasColumnType("varchar")
                 .HasMaxLength(160)
                 .IsRequired(true);
 
